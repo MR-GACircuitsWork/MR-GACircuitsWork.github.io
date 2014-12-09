@@ -1,24 +1,25 @@
 body {
-	background: url("assets/background.jpg"), url("assets/stripes.png");
-	background-repeat: 5;
+	background: url("assets/stripes.png"), url("assets/background.jpg");
+	background-repeat: repeat-x, no-repeat;
 	margin-left: 150px;
 	margin-top: 300px;
-
+	font-family: helvetica, arial;
 }
 
-h1 {
+head {
+	padding-bottom: 20px;
 	margin-bottom: 25px;
 }
 
 hr {
 	color: red;
 	margin: 0px;
-	width: 40px;
+	width: 100px;
 	
 }
 
 p {
-	font-family: helvetica;
+/*	font-family: helvetica;*/
 	color: white;
 	font-size: 20px;
 }
